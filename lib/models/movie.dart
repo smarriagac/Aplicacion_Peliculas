@@ -41,6 +41,14 @@ class Movie {
       
     }
 
+    get fullbackdropPath{
+
+      if(this.posterPath != null)
+        return 'https://image.tmdb.org/t/p/w500${this.backdropPath}';
+      return 'https://image.flaticon.com/icons/png/512/3875/3875172.png';
+      
+    }
+
     factory Movie.fromJson(String str) => Movie.fromMap(json.decode(str));
 
     factory Movie.fromMap(Map<String, dynamic> json) => Movie(
