@@ -28,14 +28,14 @@ class CastingCards extends StatelessWidget {
         ); 
       }
 
-      final cast = snapshot.data!;
+      final List<Cast> cast = snapshot.data!;
 
       return Container(
         margin: EdgeInsets.only(bottom: 30),
         width: double.infinity,
         height: 180,
         child: ListView.builder(
-          itemCount: 10,
+          itemCount: cast.length,
           scrollDirection: Axis.horizontal,
           itemBuilder: (_, int index) => _CastCard(cast[index]),
           ),
