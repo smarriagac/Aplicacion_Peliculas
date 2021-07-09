@@ -43,7 +43,7 @@ class Movie {
 
     get fullbackdropPath{
 
-      if(this.posterPath != null)
+      if(this.backdropPath != null)
         return 'https://image.tmdb.org/t/p/w500${this.backdropPath}';
       return 'https://image.flaticon.com/icons/png/512/3875/3875172.png';
       
