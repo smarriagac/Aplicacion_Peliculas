@@ -1,16 +1,5 @@
-# peliculas
+# Aplicación de Peliculas
 
-A new Flutter project.
+Esta Aplicación muestra las principales peliculas en cartelera y el top de las peliculas con la mejores puntuaciones. Toda la informacion se obtiene mediante la api de [TheMovieDB](https://www.themoviedb.org/?language=es).
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[![Screenshot-1631510986.png](https://i.postimg.cc/tRVvkp89/Screenshot-1631510986.png)](https://postimg.cc/JtMQ4V1F) [![Screenshot-1631510996.png](https://i.postimg.cc/MHRspm1n/Screenshot-1631510996.png)](https://postimg.cc/bSy06bCP)
